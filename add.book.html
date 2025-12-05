@@ -72,16 +72,36 @@
         <div class="row">
           <div class="col d-flex justify-content-between">
             <h1 class="m-0">Nuovo libro</h1>
-            <button class="btn btn-primary">
-              <a href="add.book.html"></a>Aggiungi Libro
-            </button>
+
+            <a href="index.html" class="btn btn-primary">Aggiungi libro</a>
           </div>
         </div>
       </div>
     </header>
 
     <main class="container mt-3">
-     
+      <form class="row g-3">
+        <div class="col-6 col-md-6">
+          <label for="nomeAutore" class="form-label">Nome Autore</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nomeAutore"
+            placeholder="Inserisci il nome dell'autore"
+          />
+        </div>
+        <div class="col-6 col-md-6">
+          <label for="nomeAutore" class="form-label">Cognome Autore</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nomeAutore"
+            placeholder="Inserisci il cognome dell'autore"
+          />
+        </div>
+      </form>
+    </main>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
