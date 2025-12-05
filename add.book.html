@@ -55,14 +55,16 @@
               </li>
             </ul>
 
-            <form class="d-flex" role="search">
+            <form class="d-flex d-none" role="search">
               <input
                 class="form-control me-2"
                 type="search"
                 placeholder="Cerca..."
                 aria-label="Search"
               />
-              <button class="btn btn-outline-light" type="submit">Cerca</button>
+              <button class="btn btn-outline-light" type="submit ">
+                Cerca
+              </button>
             </form>
           </div>
         </div>
@@ -107,7 +109,7 @@
           />
           <div class="form-text">Titolo versione italiana</div>
         </div>
-        <div class="col-12 col">
+        <div class="col-12 col-md-4">
           <label for="genere" class="form-label">Genere</label>
           <select id="genere" class="form-select">
             <option selected>Scegli il genere</option>
@@ -116,7 +118,7 @@
             <option>Romanzo</option>
           </select>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-4">
           <label for="anno" class="form-label">Anno di Pubblicazione</label>
           <input
             type="number"
@@ -125,7 +127,7 @@
             placeholder="Inserisci l'anno"
           />
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-4">
           <label for="ISBN#" class="form-label">ISBN#</label>
           <input
             type="number"
