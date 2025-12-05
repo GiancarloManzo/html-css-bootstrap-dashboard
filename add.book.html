@@ -80,7 +80,7 @@
     </header>
 
     <main class="container mt-3">
-      <form class="row g-3">
+      <form class="row g-3 justify-content-center">
         <div class="col-6">
           <label for="nomeAutore" class="form-label">Nome Autore</label>
           <input
@@ -135,6 +135,24 @@
             id="ISBN#"
             placeholder="Inserisci il codice ISBN#"
           />
+        </div>
+        <div class="col-12">
+          <label for="note" class="form-label">Note</label>
+          <textarea
+            id="note"
+            class="form-control"
+            rows="3"
+            placeholder="Inserisci eventuali note sul libro"
+          ></textarea>
+        </div>
+        <hr class="mt-5" />
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="digitale" />
+            <label class="form-check-label" for="digitale">
+              Disponibile anche in digitale
+            </label>
+          </div>
         </div>
       </form>
     </main>
