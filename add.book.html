@@ -81,7 +81,7 @@
 
     <main class="container mt-3">
       <form class="row g-3">
-        <div class="col-6 col-md-6">
+        <div class="col-6">
           <label for="nomeAutore" class="form-label">Nome Autore</label>
           <input
             type="text"
@@ -90,7 +90,7 @@
             placeholder="Inserisci il nome dell'autore"
           />
         </div>
-        <div class="col-6 col-md-6">
+        <div class="col-6">
           <label for="nomeAutore" class="form-label">Cognome Autore</label>
           <input
             type="text"
@@ -98,6 +98,25 @@
             id="nomeAutore"
             placeholder="Inserisci il cognome dell'autore"
           />
+        </div>
+        <div class="col-12">
+          <label for="titolo" class="form-label">Titolo</label>
+          <input
+            type="text"
+            class="form-control"
+            id="titolo"
+            placeholder="Inserisci il titolo del libro"
+          />
+          <div class="form-text">Titolo versione italiana</div>
+        </div>
+        <div class="col-12 col">
+          <label for="genere" class="form-label">Genere</label>
+          <select id="genere" class="form-select">
+            <option selected>Scegli il genere</option>
+            <option>Fantasy</option>
+            <option>Horror</option>
+            <option>Romanzo</option>
+          </select>
         </div>
       </form>
     </main>
